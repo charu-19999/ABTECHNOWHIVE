@@ -97,10 +97,10 @@ h6 {
 }
 
 .heading-home .main {
-  color: #c9c1e0;
-  font-size: 4.2rem;
+  color: #fff;
+  font-size: 2.2rem;
   letter-spacing: 1px;
-  font-family: "Charm", cursive;
+  /* font-family: "Charm", cursive; */
   font-weight: 700;
 }
 
