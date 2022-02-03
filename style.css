@@ -152,6 +152,14 @@ h6 {
   text-align: center;
 }
 
+#features .fea-base {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  grid-gap: 1rem;
+  margin-top: 60px;
+  /* margin-bottom: 80px; */
+}
+
 #features .fea-box {
   background-color: #f9f9ff;
   text-align: start;
@@ -173,4 +181,32 @@ h6 {
   font-size: 1rem;
   font-weight: 400;
   color: rgb(70, 70, 87);
+}
+
+/* course */
+
+#course {
+  padding: 8vw 8vw 0 8vw;
+  text-align: center;
+}
+
+#course .course-box {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  grid-gap: 1rem;
+  margin-top: 60px;
+  /* margin-bottom: 80px; */
+}
+
+#course .courses {
+  text-align: start;
+  background: #f9f9ff;
+  height: 100%;
+}
+
+.courses .course-img {
+  width: 100%;
+  height: 60%;
+  background-size: cover;
+  background-position: center;
 }
